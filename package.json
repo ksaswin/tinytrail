@@ -12,7 +12,8 @@
   "scripts": {
     "format": "prettier --write '**/*.{ts,tsx,js,jsx,json,css}'",
     "format:check": "prettier --check '**/*.{ts,tsx,js,jsx,json,css}'",
-    "supabase:gentypes": "supabase gen types typescript --local --schema tinytrail > packages/database/src/entities.ts"
+    "supabase:gentypes": "supabase gen types typescript --local --schema tinytrail > packages/database/src/entities.ts",
+    "supabase:start": "supabase start"
   },
   "devDependencies": {
     "prettier": "^3.8.1"
