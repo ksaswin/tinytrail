@@ -21,7 +21,9 @@
     "paths": {
       "@/*": ["./*"],
       "@tinytrail/types": ["../../packages/types/src"],
-      "@tinytrail/types/*": ["../../packages/types/src/*"]
+      "@tinytrail/types/*": ["../../packages/types/src/*"],
+      "@tinytrail/database": ["packages/database/src"],
+      "@tinytrail/database/*": ["packages/database/src/*"]
     }
   },
   "include": [
