@@ -1,0 +1,15 @@
+{
+  "name": "tinytrail",
+  "private": true,
+  "version": "1.0.0",
+  "description": "URL shortener with built-in quirkiness ;)",
+  "license": "ISC",
+  "author": "ksaswin",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
