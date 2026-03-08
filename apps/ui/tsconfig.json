@@ -19,7 +19,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@tinytrail/types": ["../../packages/types/src"],
+      "@tinytrail/types/*": ["../../packages/types/src/*"]
     }
   },
   "include": [
